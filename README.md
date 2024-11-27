@@ -1,5 +1,10 @@
 # SACM coding workshop
 
+## Agenda
+- 15m Intro
+- 2H Brainstorming + Coding
+- 45m outro
+
 ## Description:
 We are going to download current exchange rates from European Central Bank. 
 This is an XML file where all exchange rates are based on EUR, for example, 
@@ -21,3 +26,4 @@ I want to avoid any DB, because of it I create `com.example.sacmworkshop.storage
   - "/v1/ecb/graphlink/<CURRENCY>" return link to ECB currency graph. Link samples:
     - https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html
     - https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-gbp.en.html
+- Clean code implementation would be appreciated
